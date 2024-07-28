@@ -65,7 +65,7 @@ export default function Register() {
   }
   }
   return (
-    <div className='bg-mainBG bg-fixed bg-center bg-cover bg-no-repeat flex flex-col items-center min-h-screen pb-3'>
+    <div className='bg-mainBG bg-fixed bg-center bg-cover bg-no-repeat flex flex-col items-center justify-center min-h-screen pb-3'>
       <motion.div variants={heroVariant} className='text-white md:text-11xl text-6xl font-primaryFont mb-5'
       initial="initial"
       animate="animate"
@@ -92,8 +92,8 @@ export default function Register() {
             <div className='flex justify-center items-center'><button className='py-2 px-3 text-2xl bg-[#000336] text-white rounded-xl bg-opacity-80 my-3' onClick={handleEmailRegister}>Register</button></div>
         </motion.div>
         <motion.div variants={animateVariant} className="text-white text-center text-xl my-3">OR</motion.div>
-            <motion.div variants={animateVariant}><button className='bg-white bg-opacity-80 w-full py-2 rounded-full hover:shadow-lg hover:bg-opacity-100 mb-3'>Register with Google</button></motion.div>
-            <motion.div variants={animateVariant}><button className='bg-[#464646] w-full py-2 rounded-full hover:shadow-lg hover:bg-opacity-100 hover:bg-black text-white mb-5'>Register with GitHub</button></motion.div>
+            {/* <motion.div variants={animateVariant}><button className='bg-white bg-opacity-80 w-full py-2 rounded-full hover:shadow-lg hover:bg-opacity-100 mb-3'>Register with Google</button></motion.div>
+            <motion.div variants={animateVariant}><button className='bg-[#464646] w-full py-2 rounded-full hover:shadow-lg hover:bg-opacity-100 hover:bg-black text-white mb-5'>Register with GitHub</button></motion.div> */}
             <motion.div variants={animateVariant} className='text-white text-center hover:cursor-pointer'><Link to="/">Already Have an Account??? Sign In...</Link></motion.div>
       </motion.div>
       </Glow>

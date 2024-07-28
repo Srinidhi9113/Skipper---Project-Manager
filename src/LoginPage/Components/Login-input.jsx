@@ -68,8 +68,8 @@ export default function Input() {
             <div className='flex justify-center items-center'><button className='py-2 px-3 text-2xl bg-[#000336] text-white rounded-xl bg-opacity-60 my-3 hover:bg-opacity-80 active:scale-95' onClick={handleEmailLogin}>Login</button></div>
           </motion.div>
             <motion.div variants={animateVariant} className="text-white text-center text-xl my-3">OR</motion.div>
-            <motion.div variants={animateVariant}><button className='bg-white bg-opacity-80 w-full py-2 rounded-full hover:shadow-lg hover:bg-opacity-100 mb-3'>Register with Google</button></motion.div>
-            <motion.div variants={animateVariant}><button className='bg-[#464646] w-full py-2 rounded-full hover:shadow-lg hover:bg-opacity-100 hover:bg-black text-white mb-5'>Register with GitHub</button></motion.div>
+            {/* <motion.div variants={animateVariant}><button className='bg-white bg-opacity-80 w-full py-2 rounded-full hover:shadow-lg hover:bg-opacity-100 mb-3'>Register with Google</button></motion.div>
+            <motion.div variants={animateVariant}><button className='bg-[#464646] w-full py-2 rounded-full hover:shadow-lg hover:bg-opacity-100 hover:bg-black text-white mb-5'>Register with GitHub</button></motion.div> */}
             <motion.div variants={animateVariant} className='text-white text-center hover:cursor-pointer'><Link to="/register">Don't Have an Account??? Sign Up...</Link></motion.div>
         </div>
         </Glow>
