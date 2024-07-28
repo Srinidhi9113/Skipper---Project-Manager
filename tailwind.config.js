@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        "mainBG":"url('./src/assets/bg-img.svg')",
+        "mainBG":"url('/assets/bg-img.svg')",
         "dashBG":"radial-gradient(circle, rgba(0,0,1,1) 0%, rgba(4,1,114,1) 0%, rgba(21,21,58,1) 0%, rgba(0,0,0,1) 100%)"
       },
       fontFamily:{
